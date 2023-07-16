@@ -124,7 +124,8 @@ a :hover{
 }
 @media screen and (max-width: 750px) {
     *{
-        font-family: unset;
+        font-family: 'DotGothic16', sans-serif;
+        font-family: 'Ysabeau SC', sans-serif;
     }
     body{
         flex-direction: column;
@@ -141,9 +142,15 @@ a :hover{
         position: relative;
     }
     button{
-        width: 20vw;
+        width: 40vw;
     }
     main{
         padding: 0;
     }
+    .networking1{
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap;
+    }
+
 }
